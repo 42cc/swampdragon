@@ -59,7 +59,7 @@ var eventHandler = require('./event-handler'),
     channels = require('./channels'),
     connection = {},
     isReady = false,
-    connectionAttempts = 0;
+    connectionAttempt = 0;
 
 
 /********************************
